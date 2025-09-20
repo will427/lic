@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Ejemplo Regex</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Ejemplo de Expresión Regular</h1>
+    </header>
+    <section>
+        <form id="regexForm">
+            <label for="pattern">Expresión regular:</label>
+            <input type="text" id="pattern" value="^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$">
+            <label for="text">Texto a validar:</label>
+            <input type="text" id="text" value="correo@ejemplo.com">
+            <button type="submit">Probar</button>
+        </form>
+        <div id="result"></div>
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>
